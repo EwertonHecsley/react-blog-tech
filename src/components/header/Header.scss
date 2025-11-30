@@ -1,0 +1,133 @@
+$color-font-primary:#FFFFFF;
+$color-font-secondary:#846AFF;
+$color-background-primary:#F8F8FF;
+
+header{
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  background-color: $color-background-primary;
+
+  .box-header{
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+
+    .box-header-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0 2rem 0 5rem;
+      width: 55%;
+
+      @media (max-width: 1024px) {
+        padding: 0 2rem;
+        width: 60%;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+      }
+
+      h1{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+
+        span{
+          color: $color-font-secondary;
+        }
+
+        @media (max-width: 1024px) {
+          font-size: 3rem;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 2.2rem;
+          line-height: 1.2;
+        }
+      }
+
+      p{
+        font-size: 1.5rem;
+        margin: 2rem 0;
+
+        @media (max-width: 1024px) {
+          font-size: 1.2rem;
+          margin: 1.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 1rem;
+          margin: 1rem 0 1.5rem 0;
+        }
+      }
+
+      button{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        background-color: $color-font-secondary;
+        color: $color-font-primary;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover{
+          background-color: darken($color-font-secondary, 10%);
+        }
+
+        @media (max-width: 768px) {
+          width: 100%;
+          max-width: 260px;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .box-header-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+
+      @media (max-width: 1024px) {
+        width: 40%;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
+      img{
+        width: 65%;
+        height: auto;
+        padding: 1rem;
+
+        @media (max-width: 1024px) {
+          width: 80%;
+        }
+
+        @media (max-width: 768px) {
+          width: 70%;
+          max-width: 280px;
+        }
+      }
+    }
+  }
+}

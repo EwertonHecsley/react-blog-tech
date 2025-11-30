@@ -1,0 +1,108 @@
+footer {
+  width: 100%;
+  min-height: 40vh;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem 1.5rem 1rem;
+    row-gap: 1rem;
+  }
+}
+footer .box-form {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  footer .box-form {
+    width: 100%;
+  }
+}
+footer .box-form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  footer .box-form form {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  footer .box-form form {
+    width: 100%;
+  }
+}
+footer .box-form form input,
+footer .box-form form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  footer .box-form form input,
+  footer .box-form form textarea {
+    font-size: 0.95rem;
+  }
+}
+footer .box-form form textarea {
+  height: 15rem;
+  resize: none;
+}
+@media (max-width: 768px) {
+  footer .box-form form textarea {
+    height: 10rem;
+  }
+}
+footer .box-form form button {
+  width: 40%;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #846AFF;
+  color: #FFFFFF;
+  font-size: 1rem;
+  cursor: pointer;
+}
+footer .box-form form button:hover {
+  background-color: rgb(89.8993288591, 55, 255);
+}
+@media (max-width: 1024px) {
+  footer .box-form form button {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  footer .box-form form button {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+}
+footer p {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0 1rem;
+  line-height: 1.4;
+}
+@media (max-width: 768px) {
+  footer p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+}/*# sourceMappingURL=Footer.css.map */
