@@ -1,16 +1,96 @@
-# React + Vite
+# React Blog Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page de blog de tecnologia focada em artigos de programação, construída com React e Vite, utilizando SCSS para estilização e responsividade.
 
-Currently, two official plugins are available:
+## 📌 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo deste projeto é praticar e demonstrar:
+- Estruturação de componentes em React.
+- Criação de layouts responsivos com Flexbox e media queries.
+- Organização de estilos com SCSS.
+- Construção de uma landing page moderna para um blog de tecnologia.
 
-## React Compiler
+## 🛠 Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript (ES6+)
+- SCSS / CSS
+- HTML5
 
-## Expanding the ESLint configuration
+## 🎯 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Header com chamada principal e imagem ilustrativa.
+- Seção “Artigos Recomendados” com cards responsivos.
+- Cards com altura uniforme e layout adaptável (3 colunas → 2 colunas → 1 coluna).
+- Footer com formulário de contato (nome, e-mail e assunto).
+- Layout responsivo para desktop, tablet e mobile.
+
+## 🧱 Estrutura básica de pastas
+
+<img width="2304" height="1728" alt="image" src="https://github.com/user-attachments/assets/f6c92827-a33c-45c2-b01c-ba7d9748bead" />
+
+
+## 🚀 Como rodar o projeto localmente
+
+1. Clone o repositório:
+
+```bash
+  git clone https://github.com/EwertonHecsley/react-blog-tech.git
+```
+
+2. Acesse a pasta do projeto:
+   
+```bash
+  cd react-blog-tech
+```
+
+3. Instale as dependências:
+
+```bash
+  npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```bash
+  npm run dev
+```
+
+
+5. Abra o navegador no endereço exibido no terminal
+
+
+## 📜 Scripts disponíveis
+
+No arquivo `package.json`, você encontrará os seguintes scripts:
+
+- `npm run dev` – Inicia o servidor de desenvolvimento.
+- `npm run build` – Gera a versão de produção do projeto.
+
+## 📱 Responsividade
+
+O layout foi pensado para:
+
+- Desktop: header em duas colunas, cards em três colunas, formulário centralizado.
+- Tablet: header ajustado, cards em duas colunas, form um pouco mais largo.
+- Mobile: elementos empilhados, imagem do header em primeiro lugar, cards em uma coluna e formulário ocupando quase toda a largura da tela.
+
+## 🧩 Possíveis melhorias futuras
+
+- Integrar com uma API de artigos ou arquivo JSON para carregar posts dinamicamente.
+- Adicionar sistema de navegação (ex.: React Router) para páginas de detalhes dos artigos.
+- Melhorar acessibilidade (labels mais detalhados, mensagens de erro no formulário, foco visual).
+- Adicionar animações suaves em hover e transições entre seções.
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Ewerton Hecsley**.  
+Sinta-se à vontade para abrir issues, sugerir melhorias ou usar este projeto como referência de estudo.
+
+
+
+
+
+
+
